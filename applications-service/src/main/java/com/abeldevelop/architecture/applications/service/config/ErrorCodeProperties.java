@@ -12,4 +12,16 @@ import lombok.Setter;
 @ConfigurationProperties("applications-error-code")
 public class ErrorCodeProperties {
 
+	private String applicationNameNotNull;
+	private String applicationNameNameSize;
+	private String applicationDescriptionNotNull;
+	private String applicationDescriptionSize;
+	private String applicationEnabledNotNull;
+	private String applicationHomeUriNotNull;
+	private String applicationHomeUriSize;
+	private String applicationDocumentationUrlNotNull;
+	private String applicationDocumentationUrlSize;
+	private String applicationVersionNotNull;
+	private String applicationPaginationResponseResourceApplicationsNotNull;
+	
 }

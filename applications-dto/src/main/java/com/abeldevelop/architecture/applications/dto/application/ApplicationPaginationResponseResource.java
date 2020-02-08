@@ -33,6 +33,6 @@ public class ApplicationPaginationResponseResource {
 
     @ApiModelProperty(notes="List of applications", required = true, position = 1)
     @Singular
-    private List<ApplicationResponseResource> errorMessages;
+    private List<ApplicationResponseResource> applications;
     
 }
