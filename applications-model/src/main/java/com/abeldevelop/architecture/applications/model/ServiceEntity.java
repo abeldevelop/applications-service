@@ -4,6 +4,8 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
+import com.abeldevelop.architecture.library.common.model.BaseEntity;
+
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -21,7 +23,7 @@ import lombok.experimental.SuperBuilder;
 @ToString
 @Table(name = "services", schema = "applications_db")
 @Entity
-public class ServiceEntity {
+public class ServiceEntity extends BaseEntity {
 
 	@Column(name = "name", nullable = false)
 	private String name;
