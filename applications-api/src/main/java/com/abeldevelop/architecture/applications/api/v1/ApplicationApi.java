@@ -95,8 +95,7 @@ public interface ApplicationApi {
 	            @RequestParam(name = "page", required = false) Integer page, 
 	            @RequestParam(name = "size", required = false) Integer size, 
 	            @RequestParam(name = "sort", required = false) ApplicationSort sort,
-	            @RequestParam(name = "service-name", required = false) String serviceName, 
-	            @RequestParam(name = "language-code", required = false) String languageCode, 
-	            @RequestParam(name = "code", required = false) String code);
+	            @RequestParam(name = "name", required = false) String name,
+	            @RequestParam(name = "enabled", required = false) Boolean enabled);
 	
 }
